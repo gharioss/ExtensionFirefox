@@ -1,0 +1,24 @@
+{
+
+"description": "Demonstrating toolbar buttons",
+  "manifest_version": 2,
+  "name": "button-demo",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icon/icon2.png"
+    },
+    "default_title" : "Super Mix"
+  },
+
+ 
+
+  "permissions": [
+        "activeTab"
+    ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
